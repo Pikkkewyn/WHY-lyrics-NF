@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign in</title>
+    <link rel="icon" type="image/png" href="/Images/Real.png">
+    <link rel="stylesheet " href="Styles.css">
+</head>
+
+<body  >
+<table border = "2" style="position: fixed; top: 40%; left: 40%;">
+<tr align = "right">
+    
+    <form action="index.php" method = "POST">
+    <th>
+        <tr>
+            <th><label for = "Username">Username:</label></th>
+            <td><input type = "text" id = "Username" placeholder = "Username" minlength="4"  maxlength="12" required></td><br>
+        </tr>
+
+        <tr>
+            <th><label for = "Password">Password :</label></th>
+            <td><input type = "password" id = "Password" placeholder = "Password" minlength="5"  maxlength="12" required></td><br>
+        </tr>
+
+        <tr>
+            <th><label for = "Email">Email  : </label></th>
+            <td><input type = "email" id = "Email" placeholder="youremail@gmail.com" required></td><br>
+        </tr>
+
+        <tr>
+            <th><label for = "Phone">Phone Number: </label></th>
+            <td><input type = "tel" id = "Phone" placeholder="012-345-6789" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td><br>
+        </tr>
+    
+        <tr>
+            <th><input type ="reset" ></th>
+        </tr>
+    
+        <tr >
+            <th ><input type ="submit" ></th>
+        </tr>
+    </th>
+        </form>
+    
+</tr>
+</table>
+</body>
+</html>
